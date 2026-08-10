@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NeuralOS — Delete Your Account &amp; Data</title>
+<style>
+  :root{--ink:#181b26;--dim:#5b6478;--line:#e3e6f0;--bg:#fbfbfd;--card:#ffffff;--teal:#0fb8ac;--violet:#6e5ae0;--warn:#a86a00;--warnbg:#faf0dc}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif}
+  .wrap{max-width:720px;margin:0 auto;padding:56px 24px 90px}
+  .brand{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);margin-bottom:22px}
+  .brand b{background:linear-gradient(90deg,var(--teal),var(--violet));-webkit-background-clip:text;background-clip:text;color:transparent}
+  h1{font-size:30px;margin:0 0 6px;letter-spacing:-.01em}
+  .meta{color:var(--dim);font-size:14px;margin-bottom:40px}
+  .meta a{color:var(--violet)}
+  h2{font-size:16.5px;margin:34px 0 8px;padding-top:16px;border-top:1px solid var(--line)}
+  h2:first-of-type{border-top:none;padding-top:0;margin-top:0}
+  p,li{color:#2b2f3d}
+  p{margin:0 0 4px}
+  b{color:var(--ink)}
+  a{color:var(--violet)}
+  ol,ul{margin:8px 0;padding-left:22px}
+  li{margin-bottom:8px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px;margin:14px 0}
+  .btn{display:inline-block;margin-top:6px;background:linear-gradient(90deg,var(--teal),var(--violet));color:#fff;text-decoration:none;font-weight:650;padding:11px 20px;border-radius:8px;font-size:14.5px}
+  .btn:hover{opacity:.92}
+  .note{background:var(--warnbg);border-radius:9px;padding:12px 14px;font-size:13.5px;color:#4a3a10}
+  .note b{color:var(--warn)}
+  table{border-collapse:collapse;width:100%;font-size:14px;margin-top:6px}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{color:var(--dim);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.04em}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--dim);font-size:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">NEURAL<b>OS</b> &nbsp;·&nbsp; VortexKode</div>
+  <h1>Delete Your Account &amp; Data</h1>
+  <div class="meta">Last updated: 11 August 2026 &nbsp;·&nbsp; App: <b>NeuralOS</b> (package <code>com.vortexkode.neuralos</code>) &nbsp;·&nbsp; Contact: <a href="mailto:vortexkode24@gmail.com">vortexkode24@gmail.com</a></div>
+
+  <p>This page explains how to permanently delete your NeuralOS account and the data associated with it. It works whether or not you still have the app installed.</p>
+
+  <h2>Option 1 — Delete it yourself, in the app (fastest)</h2>
+  <div class="card">
+    <p>If you still have NeuralOS installed and can sign in:</p>
+    <ol>
+      <li>Open NeuralOS and sign in to the account you want to delete</li>
+      <li>Go to <b>Settings</b></li>
+      <li>Scroll to <b>Danger Zone</b></li>
+      <li>Tap <b>Delete Account</b>, type <b>DELETE</b> to confirm, and confirm again</li>
+    </ol>
+    <p>This immediately removes your account and starts deletion of your synced data — see "What gets deleted" below.</p>
+  </div>
+
+  <h2>Option 2 — Request deletion here (no app or access needed)</h2>
+  <div class="card">
+    <p>If you've uninstalled the app, lost access to your account, or would simply rather not sign back in, request deletion by email instead:</p>
+    <a class="btn" href="mailto:vortexkode24@gmail.com?subject=Delete%20my%20NeuralOS%20account&body=Please%20delete%20my%20NeuralOS%20account%20and%20associated%20data.%0A%0AThe%20email%20address%20on%20my%20NeuralOS%20account%3A%20%0A(If%20you%20signed%20in%20with%20Google%20or%20Apple%2C%20name%20which%20one%20and%20the%20email%20it%27s%20linked%20to.)">Request Account Deletion by Email &#8594;</a>
+    <p style="margin-top:14px">That link opens a pre-filled email to <b>vortexkode24@gmail.com</b>. Just fill in the account email and send — no account access or password needed. We verify the request matches an existing account and confirm by email once it's done, <b>within 30 days</b>.</p>
+  </div>
+
+  <h2>What gets deleted, and what's retained</h2>
+  <div class="tbl-wrap"><table>
+    <tr><th>Data</th><th>What happens</th></tr>
+    <tr><td>Account (email, sign-in method, profile)</td><td>Deleted immediately from active systems</td></tr>
+    <tr><td>Synced focus sessions, brain/streak history, achievements</td><td>Deleted immediately from active systems</td></tr>
+    <tr><td>Encrypted backup copies</td><td>Age out automatically within <b>30 days</b> — this is a safety window against accidental/malicious deletion requests, not data we keep on purpose</td></tr>
+    <tr><td>Support emails you've sent us</td><td>Kept for our own records unless you separately ask us to delete those too</td></tr>
+    <tr><td>Data that was only ever stored on your own device (offline use)</td><td>Not something we hold at all — removed the moment you uninstall the app or clear its data yourself</td></tr>
+  </table></div>
+
+  <div class="note" style="margin-top:16px"><b>Note:</b> if you have an active NeuralOS Pro subscription, deleting your account does not automatically cancel billing with Google Play or the App Store — cancel it separately from your store account (Play Store → Profile → Payments &amp; subscriptions), or ask us and we'll point you to the right place.</div>
+
+  <footer>This page exists to satisfy Google Play's account-deletion requirement, and reflects the same terms as the full <a href="privacy.html">Privacy Policy</a>, section 9 (Storage and retention). Questions: <a href="mailto:vortexkode24@gmail.com">vortexkode24@gmail.com</a>.</footer>
+</div>
+</body>
+</html>
